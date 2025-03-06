@@ -1,0 +1,64 @@
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #121212;
+    color: #c0c0c0;
+}
+
+
+.text-hacker {
+    color: #1a9f1a;  
+}
+
+.border-hacker {
+    border-color: #1a9f1a !important;  
+}
+
+.bg-hacker {
+    background-color: #1a9f1a;  
+    color: #000;
+}
+
+
+.card:hover {
+    border-color: #1a9f1a !important;  
+    box-shadow: 0 0 10px #1a9f1a;  
+}
+
+
+.profile-img {
+    border: 3px solid #1a9f1a;  
+    border-radius: 50%;
+}
+
+
+.progress {
+    background-color: #333;
+    height: 10px;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    background-color: #1a9f1a;  
+}
+
+
+.btn-outline-success {
+    color: #1a9f1a;  
+    border-color: #1a9f1a;  
+}
+
+.btn-outline-success:hover {
+    background-color: #1a9f1a;  
+    color: #121212;
+}
+
+.btn-success {
+    background-color: #1a9f1a;  
+    border-color: #1a9f1a;  
+}
+
+.btn-success:hover {
+    background-color: #137b13;
+    border-color: #137b13;
+}

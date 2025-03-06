@@ -1,0 +1,189 @@
+c++/webdeb/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top border-bottom border-hacker">
+        <div class="container">
+            <a class="navbar-brand text-hacker" href="#">> HACKER_PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home" class="py-5">
+            <div class="text-center mb-5">
+                <img src="image.png" class="profile-img img-fluid" alt="Profile Picture">
+                <h3 class="text-hacker mt-3">Ibrahim Ahmed</h3>
+                <p>Student at ITU, Lahore</p>
+                
+                <div class="mt-3 social-links">
+                    <a href="https://github.com/m-ibi" class="btn btn-outline-success me-2"><i class="fab fa-github"></i></a>
+                </div>
+                
+                <div class="mt-4 d-flex justify-content-center">
+                    <div class="mx-2"><i class="fas fa-envelope text-hacker me-2"></i> m.ibi.ahmed@gmail.com</div>
+                    <div class="mx-2"><i class="fas fa-phone text-hacker me-2"></i>Real Phone Number</div>
+                    <div class="mx-2"><i class="fas fa-map-marker-alt text-hacker me-2"></i> Lahore, Pakistan</div>
+
+                </div>
+            </div>
+            
+            <div class="card bg-black border border-hacker mb-4">
+                <div class="card-header bg-black text-hacker">
+                    > whoami
+                </div>
+                <div class="card-body">
+                    <h2 class="text-hacker mb-3">Hello I'm Ibrahim Ahmed</h2>
+                    <p>
+                        I'm a student at ITU, Lahore pursuing a degree in BSAI. I'm passionate about
+                        software development
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="py-5">
+            <h2 class="text-hacker mb-4">> EDUCATION</h2>
+            <div class="table-responsive">
+                <table class="table table-dark table-striped">
+                    <thead class="bg-success text-dark">
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Year</th>
+                            <th>Results</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BSAI</td>
+                            <td>ITU</td>
+                            <td>2023-2027</td>
+                            <td>3/4.0</td>
+                        </tr>
+                        <tr>
+                            <td>A Levels</td>
+                            <td>LACAS Jt</td>
+                            <td>2023</td>
+                            <td>82%</td>
+                        </tr>
+                        <tr>
+                            <td>O Levels</td>
+                            <td>St.Anthony's</td>
+                            <td>2021</td>
+                            <td>87%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-5">
+            <h2 class="text-hacker mb-4">> PROJECTS</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card bg-black h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-hacker">Interesting Project 1</h5>
+                            <p class="card-text">
+                                very interesting project that I worked on. It was very real adn useful
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card bg-black h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-hacker">Interesting Project 2</h5>
+                            <p class="card-text">
+                                Funny joke about the project. It was very interesting and I learned a lot
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5">
+            <h2 class="text-hacker mb-4">> CONTACT</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card bg-black">
+                        <div class="card-body">
+                            <form id="contactForm" action="#" method="post">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label text-hacker">Name</label>
+                                    <input type="text" class="form-control bg-dark text-light border-success" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label text-hacker">Email</label>
+                                    <input type="email" class="form-control bg-dark text-light border-success" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label text-hacker">Message</label>
+                                    <textarea class="form-control bg-dark text-light border-success" id="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-black h-100">
+                        <div class="card-body">
+                            <h5 class="text-hacker">Get In Touch</h5>
+                            <p>Feel free to contact me for any work or suggestions.</p>
+                            <div class="mt-4">
+                                <p><i class="fas fa-envelope text-hacker me-2"></i> m.ibi.ahmed@gmail.com</p>
+                                <p><i class="fas fa-phone text-hacker me-2"></i> Real Phone Number</p>
+                                <p><i class="fas fa-map-marker-alt text-hacker me-2"></i> Lahore, Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+</html>
